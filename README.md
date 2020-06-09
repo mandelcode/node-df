@@ -1,3 +1,8 @@
+Fork of https://github.com/adriano-di-giovanni/node-df
+
+Added timeout and -l option to avoid stalling when, for example, a remote mounted drive is disconnected (df never exits).
+ 
+
 # df
 
 [![Build Status](https://travis-ci.org/adriano-di-giovanni/node-df.svg?branch=master)](https://travis-ci.org/adriano-di-giovanni/node-df)
