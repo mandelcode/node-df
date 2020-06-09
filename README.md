@@ -117,3 +117,6 @@ Output from `df` now looks like this:
 * **prefixMultiplier**: convert `size`, `used` and `available` values from `KiB` to `MiB`, `GiB`, `PiB`, `EiB`, `ZiB`, `YiB`, `MB`, `GB`, `PB`, `EB`, `ZB`, `YB`;
 * **isDisplayPrefixMultiplier**: if `true`, values for `size`, `used` and `available` are converted to strings and `prefixMultiplier` is displayed (see example above).
 * **precision**: round `size`, `used` and `available` values to `precision` decimal digits.
+* **isIncludeRemote**: include remote drives (i.e. omit '-l' parameter), default `false`
+* **timeout**: number of seconds after which the df process is killed (`execFile()` timeout option)
+* **execFileOptions**: (object) additional `execFile()` options
